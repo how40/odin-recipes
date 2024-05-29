@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+#all {
+    display: block;
+    max-width: 400px;
+    margin:10px auto;
+    padding: 10px;
+    border: 1px solid hsl(36, 5%, 20%);
+    background-color: antiquewhite;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+li {
+    margin:5px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 8px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#footer {
+    font-size: small;
+    text-align: center;
+}
+img {
+    display:block;
+    margin:15px auto;
+}
